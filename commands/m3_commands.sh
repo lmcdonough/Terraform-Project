@@ -19,7 +19,7 @@ cp ./base_web_app/main.tf ./globo_web_app/main.tf
 # Now we can work with the main.tf file in globo_web_app
 cd globo_web_app
 
-# Open the main.tf file in your code editor and replace the values 
+# Open the main.tf file in your code editor and replace the values
 # for the AWS keys in the config file
 
 # !! DO NOT COMMIT THESE TO SOURCE CONTROL !!
@@ -29,7 +29,7 @@ terraform init
 terraform plan -out m3.tfplan
 terraform apply "m3.tfplan"
 
-# Got to the Console and get the Public IP address for the EC2 instance
+# Go to the Console and get the Public IP address for the EC2 instance
 # and browse to port 80.
 
 # If you are done, you can tear things down to save $$
